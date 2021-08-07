@@ -1,2 +1,3 @@
-# XHacks-ML
+# Proxima
 ---
+for XHacks Machine Learning Hackathon
