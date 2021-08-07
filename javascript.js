@@ -1,6 +1,10 @@
 function showCase() {
     var summary = document.getElementById("summary");
-    var button = document.getElementsById("submit");
+    if (summary.style.display === 'none'){
+        summary.style.display = 'block';
+    }else{
+        summary.style.display = 'none';
+    }
     function display() {
         var heart_rt = document.getElementById("hrate").value;
         document.getElementById("heart_rate").innerHTML = heart_rt;
@@ -19,3 +23,4 @@ function showCase() {
     }
     display();
 }
+

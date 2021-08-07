@@ -87,3 +87,6 @@ html{
     font-size: xx-large;
     font-weight: 1000;
 }
+#summary{
+    display: none;
+}
