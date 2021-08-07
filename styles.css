@@ -90,3 +90,6 @@ html{
 #summary{
     display: none;
 }
+.vitals_img{
+    width: 35%;
+}
