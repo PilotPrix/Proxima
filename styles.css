@@ -81,6 +81,10 @@ html{
     width: 13%;
     margin-bottom: 2%;
     border-radius: 43px;
+    transition: 0.5s;
+}
+.box:hover{
+    background-color: #15afc4;
 }
 .vitals_spans{
     color: black;
@@ -101,4 +105,79 @@ html{
     width: 50%;
     padding: 0.5%;
     margin-left: 24%;
+}
+.boxes{
+    background-color: #01dab2;
+    width: 25%;
+    margin-left: 4.7%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 28px;
+    margin-top: 4%;
+}
+.image{
+    width: 48%;
+    margin-top: 2%
+}
+#second_sec{
+    display: none;
+}
+#first_sec{
+    display: block;
+}
+@media (max-width: 750px) {
+    header{
+        padding-bottom: 73%;
+        border-bottom-left-radius: 56px;
+        border-bottom-right-radius: 56px;
+    }
+    .click{
+        margin-top: 52%;
+        padding: 2% 7%;
+        font-size: 113%;
+    }
+    .title{
+        margin-top: 9%;
+    }
+    .descrp{
+        font-size: 89%;
+        margin-top: 32%;
+    }
+    #image{
+        display: none;
+    }
+    .boxes{
+        width: 41%;
+        font-size: 88%;
+    }
+    .questions{
+        margin-left: 4%;
+        width: 90%
+    }
+    .click2{
+        padding: 2% 8%;
+        margin-left: 20%;
+        margin-top: 7%;
+        font-size: 160%;
+    }
+    .results{
+        width: 88%;
+        padding: 0.5%;
+        margin-left: 6%;
+        font-size: 81%;
+    }
+    #first_sec{
+        display: none;
+    }
+    #second_sec{
+        display: block;
+    }
+    .box{
+        margin-left: 3.5%;
+        width: 25%;
+        font-size: 67%;
+    }
+    #summary{
+        display: none;
+    }
 }
