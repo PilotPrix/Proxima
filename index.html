@@ -14,6 +14,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href = "Machine Learning/Machine Learning.ipynb">
     <link href = "Machine Learning/Disease Symptom Prediction.csv">
+    <link href="test.py">
+    <!-- <link href="Machine Learning/test.py"> -->
 </head>
 <body>
     <header>
@@ -95,7 +97,7 @@
             </div>
             <div class="ques">
                 <label for="temp">Body Temperature:</label>
-                <input type="number" class="temp" id="temperature" name="temp" placeholder="Temperature in Ceslius">
+                <input type="number" class="temp" id="temperature" name="temp" placeholder="Temperature in Celsius">
             </div>
             <div class="ques">
                 <label for="pulse">Pulse Rate:</label>
@@ -287,7 +289,8 @@
 
         <div class="results" data-aos="fade-up">
             <img src="" class="vitals_img">
-            <h2>We Believe Your Condition To Be:</h2>
+            <h1>Click the Button To See Your Diagnoses</h1>
+            <button onclick="output()" class="click2" id="click3">Click</button><br>
             <span id="results" class="vitals_spans"></span>
         </div>
 

@@ -14,6 +14,11 @@ function showCase() {
             document.getElementById("heart_rate").innerHTML = heart_rt + " BPM";
         };
 
+        if (heart_rt = true){
+            document.getElementById("heart_rate").innerHTML = heart_rt + "BPM";
+        }else{
+            document.getElementById("heart_rate").innerHTML = "N/A";
+        }
         var temp = document.getElementById("temperature").value;
         // document.getElementById("temp").innerHTML = temp + "C";
         if (heart_rt.length == 0){
@@ -47,7 +52,29 @@ function showCase() {
         };
     }
     display();
-}
+};
+
+function output() {
+    var textArray = [
+        'Heart Attack', 'Allergy', 'Common Cold', 'Pneumonia', 'Covid-19'
+        ]
+    var randomNumber = Math.floor(Math.random()*textArray.length);
+    var results = textArray[randomNumber];
+    // console.log(results);
+    document.getElementById("results").innerHTML = results;
+;}
+
+
+// var textArray = [
+//     'song1.ogg',
+//     'song2.ogg'
+// ];
+// var randomNumber = Math.floor(Math.random()*textArray.length);
+
+// audioElement.setAttribute('src', textArray[randomNumber]);
+
+
+
 
 //Check if the geolocation is supported
 // if (navigator.geolocation) {
@@ -79,5 +106,7 @@ function showCase() {
     //   .then(console.log); 
 
 // results[0].formatted;
+
+
 
 

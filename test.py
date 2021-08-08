@@ -7,5 +7,6 @@ def my_form():
 
 @app.route('/', methods=['POST'])
 def my_form_post():
-    variable = request.form['variable']
+    variable = request.form['hrate']
     return variable
+

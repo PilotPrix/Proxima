@@ -11,6 +11,9 @@ body{
 html{
     scroll-behavior: smooth;
 }
+#click3{
+    margin-left: 0%;
+}
 .container{
     position: relative;
     text-align: center;
