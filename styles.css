@@ -83,7 +83,7 @@ html{
     border-radius: 43px;
 }
 .vitals_spans{
-    color: blue;
+    color: black;
     font-size: xx-large;
     font-weight: 1000;
 }
@@ -92,4 +92,13 @@ html{
 }
 .vitals_img{
     width: 35%;
+}
+.results{
+    text-align: center;
+    background-color: #27e1f9;
+    margin-bottom: 2%;
+    border-radius: 91px;
+    width: 50%;
+    padding: 0.5%;
+    margin-left: 24%;
 }
